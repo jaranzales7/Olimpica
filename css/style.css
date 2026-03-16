@@ -1,44 +1,70 @@
-/* body 
-body{
-    background: red;
-}
+/*body{
+	background: red;
+}*/
 
- selector class */
+/*Selector class*/
 
 .container{
-    width: 80%;
-    border: 2px solid red;
-    padding: 30px;
-    font-size: 20px;
-    text-align: justify;
-    margin: auto;
+	width: 90%;
+	border: 2px solid orange;
+	padding: 10px;
+	text-align: justify;
+	margin: auto;
 }
 
 header{
-    background: green ;
-    width: 100;
+	background: green;
+	width: 100%;
 }
-.container main img {
-    width: 100%;
-}
-
+/* Estilo para el logo */
+    .logo {
+      position: absolute;   /* Lo fija en la esquina */
+      top: 10px;            /* Separación desde arriba */
+      left: 60px;           /* Separación desde la izquierda */
+      width: 90px;          /* Tamaño pequeño */
+      height: auto;         /* Mantiene proporción */
+    }
+    /* Ajuste del body para que no se superponga */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+.container main img{
+	width: 100%;
+} 
 
 .menu ul li a{
-    background: white;
-    text-decoration: none;
-    display: inline-block;
-    padding: 16px;
+	background: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 16px;
 }
 
 .menu ul{
-    list-style: none;
+	list-style: none;
+
 }
 
 .menu ul li{
-    float: left;
+	float: left;
 }
 
-.menu ul li a:hover {
-    background-color: black;
-    color: white;
+/*Evento hover*/
+
+.menu ul li a:hover{
+	background: black;
+	color: white;
+}
+
+nav {
+  display: flex;          /* Activa flexbox */
+  justify-content: flex-end; /* Mueve todo a la derecha */
+  background-color: #fff; /* opcional */
+  padding: 10px;          /* espacio interno */
+}
+
+nav a {
+  margin-left: 20px;      /* separa los links entre sí */
+  text-decoration: none;
+  color: purple;
 }
